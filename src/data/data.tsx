@@ -1,4 +1,4 @@
-import ChallengeOne from "@/components/challenge-1";
+import ChallengeOne from "@/components/challengeOne";
 
 export default [
   {
