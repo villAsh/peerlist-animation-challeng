@@ -1,4 +1,4 @@
-import data from "@/data/data.json";
+import data from "@/data/data";
 import ChallengeCard from "@/components/challengeCard";
 const ChallengeSection = () => {
   return (
