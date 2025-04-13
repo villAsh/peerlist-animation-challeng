@@ -10,7 +10,7 @@ export default [
   {
     id: "day-2",
     title: "Challenge 2",
-    disabled: false,
+    disabled: true,
   },
   {
     id: "day-3",
