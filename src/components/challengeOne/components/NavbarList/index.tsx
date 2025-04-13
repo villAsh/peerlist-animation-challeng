@@ -63,7 +63,7 @@ const NavbarList = ({ isOpen }: Props) => {
           animate="open"
           exit="closed"
           variants={parentVariants}
-          className="flex flex-col justify-center items-center gap-y-1 mt-2"
+          className="top-12 absolute flex flex-col justify-center items-center gap-y-1 mt-2"
         >
           {menu.map((item) => (
             <motion.li
