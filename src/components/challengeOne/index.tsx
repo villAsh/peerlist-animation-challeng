@@ -3,6 +3,7 @@ import { Menu, Plus } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 import NavbarList from "./components/NavbarList";
+import ChallengeTitle from "../ChallengeTitle";
 
 const ChallengeOne = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,14 +40,10 @@ const ChallengeOne = () => {
         </AnimatePresence>
         <NavbarList isOpen={isOpen} />
       </header>
-      <section className="flex flex-col justify-center items-center w-full h-[80vh] text-center">
-        <h1 className="shadow-white text-shadow drop-shadow-2xl font-semibold text-slate-200 max-lg:text-2xl text-4xl">
-          Peerlist Animation Challenge - 1
-        </h1>
-        <p className="font-semibold max-lg:text-lg text-2xl">
-          Fluid Menu Animation
-        </p>
-      </section>
+      <ChallengeTitle
+        heading="Peerlist Animation Challenge - 1"
+        title="Fluid Menu Animation"
+      />
     </main>
   );
 };
