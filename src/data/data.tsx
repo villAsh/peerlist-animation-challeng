@@ -1,4 +1,5 @@
 import ChallengeOne from "@/components/challengeOne";
+import ChallengeTwo from "@/components/challengeTwo";
 
 export default [
   {
@@ -10,7 +11,8 @@ export default [
   {
     id: "day-2",
     title: "Challenge 2",
-    disabled: true,
+    disabled: false,
+    component: <ChallengeTwo />,
   },
   {
     id: "day-3",

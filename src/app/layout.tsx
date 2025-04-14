@@ -30,9 +30,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#001] bg-gradient-to-br p-8 h-screen w-screen relative`}
       >
         {children}
-        <footer className="flex justify-center items-center gap-x-2 font-semibold text-white text-3xl text-center">
+        <footer className="bottom-10 absolute inset-x-0 flex justify-center items-center gap-x-2 font-semibold text-white max-lg:text-xl text-3xl text-center">
           Made with <Heart className="fill-red-500 text-red-500" size={28} /> by{" "}
-          <Link href={""}>Vilas</Link>
+          <Link href={"https://www.linkedin.com/in/vilas-chauvhan-4609391aa"}>
+            Vilas
+          </Link>
         </footer>
       </body>
     </html>
