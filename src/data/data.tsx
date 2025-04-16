@@ -1,3 +1,4 @@
+import ChallengeFour from "@/components/challengeFour";
 import ChallengeOne from "@/components/challengeOne";
 import ChallengeThree from "@/components/ChallengeThree";
 import ChallengeTwo from "@/components/challengeTwo";
@@ -19,12 +20,13 @@ export default [
     id: "day-3",
     title: "Challenge 3",
     disabled: false,
-    component: <ChallengeThree />
+    component: <ChallengeThree />,
   },
   {
     id: "day-4",
     title: "Challenge 4",
-    disabled: true,
+    disabled: false,
+    component: <ChallengeFour />,
   },
   {
     id: "day-5",
