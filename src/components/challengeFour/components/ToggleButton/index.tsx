@@ -24,7 +24,6 @@ const ToggleButton = ({ isOn, setIsOn }: Props) => {
         }}
         transition={{
           duration: 0.3,
-          delay: isOn ? 0 : 0.2,
         }}
         className="z-30 absolute flex flex-col justify-center items-center bg-black p-1 rounded-full w-1/2 h-[90%] hover:cursor-pointer"
       >
