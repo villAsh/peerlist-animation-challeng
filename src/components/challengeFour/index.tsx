@@ -28,9 +28,9 @@ const ChallengeFour = () => {
           >
             <AnimatePresence mode="wait">
               {isOn && (
-                <motion.h6
+                <motion.p
                   key="premium"
-                  className="font-[600] text-2xl"
+                  className="flex flex-col justify-center items-center"
                   initial={{ x: 30, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{
@@ -41,13 +41,14 @@ const ChallengeFour = () => {
                     opacity: 0,
                   }}
                 >
-                  Premium
-                </motion.h6>
+                  <span className="font-semibold text-lg">Premium</span>
+                  <span className="font-medium text-sm">Monthly + Annual</span>
+                </motion.p>
               )}
               {!isOn && (
                 <motion.h6
                   key="free"
-                  className="font-[600] text-2xl"
+                  className="font-[600] text-lg"
                   initial={{ x: -30, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{
